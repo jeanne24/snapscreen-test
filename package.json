@@ -1,0 +1,22 @@
+{
+  "name": "snapscreen",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bufferutil": "^4.0.1",
+    "downloads-folder": "^3.0.0",
+    "puppeteer": "^5.2.1",
+    "utf-8-validate": "^5.0.2"
+  },
+  "bin": {
+    "snapscreen": "cli.js"
+  },
+  "devDependencies": {},
+  "description": ""
+}
