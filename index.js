@@ -4,6 +4,9 @@ const downloadsFolder = require('downloads-folder');
 
 
 function snapscreen(url) {
+    if (!url.includes('https') || !url.includes('http')) {
+        url.concat('https://');
+    }
     try {
         (async() => {
             const browser = await puppeteer.launch();
