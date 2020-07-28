@@ -8,7 +8,7 @@ function snapscreen(url) {
     let now = new Date();
 
     if (!url.includes('https') && !url.includes('http')) {
-        url.concat('https://');
+        url = 'https://' + url;
     }
 
     try {
