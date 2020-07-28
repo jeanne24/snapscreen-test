@@ -4,7 +4,7 @@ const downloadsFolder = require('downloads-folder');
 
 
 function snapscreen(url) {
-    if (!url.includes('https') || !url.includes('http')) {
+    if (!url.includes('https') && !url.includes('http')) {
         url.concat('https://');
     }
     try {
